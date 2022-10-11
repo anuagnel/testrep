@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>util.stupid.tools</groupId>
+  <artifactId>gentools</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>my generic tools</name>
+  <description>my generic tools</description>
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>itextpdf</artifactId>
+    <version>5.5.13.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.itextpdf/layout -->
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>layout</artifactId>
+    <version>7.1.15</version>
+</dependency>
+
+  </dependencies>
+</project>
